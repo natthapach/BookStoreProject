@@ -1,9 +1,6 @@
 public class BookStore {
     private Item[] items = new Item[200];
     private int i = 0;
-    public static void main(String[] args) {
-
-    }
 
     public void addItem(Item item){
         items[i] = item;
