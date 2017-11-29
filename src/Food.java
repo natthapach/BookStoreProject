@@ -21,4 +21,17 @@ public class Food extends Item{
     public double getAmount() {
         return amount;
     }
+
+    @Override
+    public String toString() {
+        return "Food{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", manufactoredDate='" + manufactoredDate + '\'' +
+                ", expiredDate='" + expiredDate + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }
