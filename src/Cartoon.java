@@ -21,4 +21,22 @@ public class Cartoon extends Book {
     public String getPainter() {
         return painter;
     }
+
+    @Override
+    public String toString() {
+        return "Cartoon{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", isbn='" + getIsbn() + "'" +
+                ", publisher=" + getPublisher() + "'" +
+                ", publishedYear='" + getPublishedYear() + "'" +
+                ", publishedMonth='" + getPublishedMonth() + "'" +
+                ", author='" + getAuthor() + "'" +
+                ", bookNumber=" + bookNumber +
+                ", genres='" + genres + '\'' +
+                ", painter='" + painter + '\'' +
+                '}';
+    }
 }

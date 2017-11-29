@@ -9,4 +9,18 @@ public class Pen extends Stationary {
     public String getInkColor() {
         return inkColor;
     }
+
+    @Override
+    public String toString() {
+        return "Pen{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", brand='" + getBrand() + "'" +
+                ", type='" + getType() + "'" +
+                ", color='" + getColor() + "'" +
+                ", inkColor='" + inkColor + '\'' +
+                '}';
+    }
 }

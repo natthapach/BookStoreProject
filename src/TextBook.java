@@ -9,4 +9,20 @@ public class TextBook extends Book {
     public String getSubjects() {
         return subjects;
     }
+
+    @Override
+    public String toString() {
+        return "TextBook{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", isbn='" + getIsbn() + "'" +
+                ", publisher=" + getPublisher() + "'" +
+                ", publishedYear='" + getPublishedYear() + "'" +
+                ", publishedMonth='" + getPublishedMonth() + "'" +
+                ", author='" + getAuthor() + "'" +
+                ", subjects='" + subjects + '\'' +
+                '}';
+    }
 }

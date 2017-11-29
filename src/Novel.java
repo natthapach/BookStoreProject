@@ -15,4 +15,21 @@ public class Novel extends Book {
     public String getGenres() {
         return genres;
     }
+
+    @Override
+    public String toString() {
+        return "Novel{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", isbn='" + getIsbn() + "'" +
+                ", publisher=" + getPublisher() + "'" +
+                ", publishedYear='" + getPublishedYear() + "'" +
+                ", publishedMonth='" + getPublishedMonth() + "'" +
+                ", author='" + getAuthor() + "'" +
+                ", bookNumber=" + bookNumber +
+                ", genres='" + genres + '\'' +
+                '}';
+    }
 }

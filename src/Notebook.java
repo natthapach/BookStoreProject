@@ -27,4 +27,21 @@ public class Notebook extends Stationary {
     public double getWidth() {
         return width;
     }
+
+    @Override
+    public String toString() {
+        return "Notebook{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", brand='" + getBrand() + "'" +
+                ", type='" + getType() + "'" +
+                ", color='" + getColor() + "'" +
+                ", paperAmount=" + paperAmount +
+                ", line=" + line +
+                ", height=" + height +
+                ", width=" + width +
+                '}';
+    }
 }

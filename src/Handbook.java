@@ -9,4 +9,20 @@ public class Handbook extends Book {
     public String getCategory() {
         return category;
     }
+
+    @Override
+    public String toString() {
+        return "Handbook{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", isbn='" + getIsbn() + "'" +
+                ", publisher=" + getPublisher() + "'" +
+                ", publishedYear='" + getPublishedYear() + "'" +
+                ", publishedMonth='" + getPublishedMonth() + "'" +
+                ", author='" + getAuthor() + "'" +
+                ", category='" + category + '\'' +
+                '}';
+    }
 }

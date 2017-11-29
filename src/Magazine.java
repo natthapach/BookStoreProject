@@ -9,4 +9,20 @@ public class Magazine extends Book {
     public String getIssueDate() {
         return issueDate;
     }
+
+    @Override
+    public String toString() {
+        return "Magazine{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", isbn='" + getIsbn() + "'" +
+                ", publisher=" + getPublisher() + "'" +
+                ", publishedYear='" + getPublishedYear() + "'" +
+                ", publishedMonth='" + getPublishedMonth() + "'" +
+                ", author='" + getAuthor() + "'" +
+                ", issueDate='" + issueDate + '\'' +
+                '}';
+    }
 }

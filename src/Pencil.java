@@ -9,4 +9,18 @@ public class Pencil extends Stationary {
     public String getDepth() {
         return depth;
     }
+
+    @Override
+    public String toString() {
+        return "Pencil{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", brand='" + getBrand() + "'" +
+                ", type='" + getType() + "'" +
+                ", color='" + getColor() + "'" +
+                ", depth='" + depth + '\'' +
+                '}';
+    }
 }

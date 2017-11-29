@@ -9,4 +9,18 @@ public class Ruler extends Stationary {
     public int getLength() {
         return length;
     }
+
+    @Override
+    public String toString() {
+        return "Ruler{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", brand='" + getBrand() + "'" +
+                ", type='" + getType() + "'" +
+                ", color='" + getColor() + "'" +
+                ", length=" + length +
+                '}';
+    }
 }

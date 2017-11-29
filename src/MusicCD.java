@@ -21,4 +21,18 @@ public class MusicCD extends CD {
     public String getSinger() {
         return singer;
     }
+
+    @Override
+    public String toString() {
+        return "MusicCD{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", length='" + getLength() + "'" +
+                ", musicAmount=" + musicAmount +
+                ", musicName='" + musicName + '\'' +
+                ", singer='" + singer + '\'' +
+                '}';
+    }
 }

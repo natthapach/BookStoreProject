@@ -15,4 +15,17 @@ public class MovieCD extends CD {
     public String getDub() {
         return dub;
     }
+
+    @Override
+    public String toString() {
+        return "MovieCD{" +
+                "name='" + getName() + "'" +
+                ", price='" + getPrice() + "'" +
+                ", itemId='" + getItemId() + "'" +
+                ", description='" + getDescription() + "'" +
+                ", length='" + getLength() + "'" +
+                ", director='" + director + '\'' +
+                ", dub='" + dub + '\'' +
+                '}';
+    }
 }
